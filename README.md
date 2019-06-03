@@ -1,5 +1,6 @@
-# Group-2
-# Coriolis Force simulation
+# Group-02
+## Topic
+Coriolis Force simulation
 # 1.Members
 楊添福 106022106 
 
