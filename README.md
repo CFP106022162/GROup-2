@@ -8,10 +8,10 @@ Coriolis Force simulation
 3. 鄭銘健 106022162
 4. 黃景岳 106022225
 
-# 2.Goals
-simulate a movement of a throwing ball on a rotating planet(Earth, etc.)
+## 2. Goals
+Simulate the movement of a throwing ball on a rotating planet (eg. Earth)
 
-# 3.Steps
+## 3. Steps
 a.setting a ball and the rotating planet initial condition
 
 b.calculating the Coriolis Force acting on the ball
