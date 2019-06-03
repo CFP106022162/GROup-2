@@ -1,14 +1,12 @@
 # Group-02
 ## Topic
 Coriolis Force simulation
-# 1.Members
-楊添福 106022106 
 
-謝明儒 106022215 
-
-鄭銘健 106022162
-
-黃景岳 106022225
+## 1. Members
+1. 楊添福 106022106
+2. 謝明儒 106022215
+3. 鄭銘健 106022162
+4. 黃景岳 106022225
 
 # 2.Goals
 simulate a movement of a throwing ball on a rotating planet(Earth, etc.)
