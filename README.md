@@ -19,7 +19,10 @@ Simulate the movement of a throwing ball on a rotating system. (eg. Earth)
 3. Present the simulation by a video.
 
 ## 4. Assignment
-楊添福 -> Formulate the Coriolis force acting on the ball.
-黃景岳 -> Find out the solution of the movement equation.
-謝明儒 -> Export the animation of the throwing ball.
-鄭銘健 -> Debug and check thework of vpython code.
+1. 楊添福 -> Formulate the Coriolis force acting on the ball.
+
+2. 黃景岳 -> Find out the solution of the movement equation.
+
+3. 謝明儒 -> Export the animation of the throwing ball.
+
+4. 鄭銘健 -> Debug and check thework of vpython code.
