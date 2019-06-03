@@ -9,29 +9,17 @@ Coriolis Force simulation
 4. 黃景岳 106022225
 
 ## 2. Goals
-Simulate the movement of a throwing ball on a rotating planet (eg. Earth)
+Simulate the movement of a throwing ball on a rotating system. (eg. Earth)
 
 ## 3. Steps
-a.setting a ball and the rotating planet initial condition
+1. Depicting the ball and the rotating planet at initial condition.
 
-b.calculating the Coriolis Force acting on the ball
+2. Calculate the Coriolis force acting on the ball.
 
-c.show the simulation by a video
+3. Present the simulation by a video.
 
-# 4.Assignment
-
-●formulate the Coriolis Force of the ball
-
-楊添福 
-
-●solution of the formula
-
-黃景岳
-
-●plotting
-
-謝明儒
-
-●debug & output the video
-
-鄭銘健
+## 4. Assignment
+楊添福 -> Formulate the Coriolis force acting on the ball.
+黃景岳 -> Find out the solution of the movement equation.
+謝明儒 -> Export the animation of the throwing ball.
+鄭銘健 -> Debug and check thework of vpython code.
