@@ -26,3 +26,20 @@ Simulate the movement of a throwing ball on a rotating system. (eg. Earth)
 3. 謝明儒 -> Export the animation of the throwing ball.
 
 4. 鄭銘健 -> Debug and check thework of vpython code.
+
+## V. Work Log
+Week 1:
+1. Install vpython and look out the difference of it.
+2. Formulate the motion of the throwing ball.
+3. Solve the equation and observe how it moves.
+
+Week 2:
+1. Define all the constants we need in this project.
+2. Set up input format, containg latitude, velocity, and duration.
+3. Generate three windows to show our later detail works.
+
+Week 3:
+
+Week 4:
+
+Week 5:
