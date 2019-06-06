@@ -29,21 +29,37 @@ Simulate the movement of a throwing ball on a rotating system. (eg. Earth)
 
 ## V. Work Log
 Week 1:
+1. Discuss and organize our final project goal.
+
+Week 2:
 1. Install vpython and look out the difference of it.
 2. Formulate the motion of the throwing ball.
 3. Solve the equation and observe how it moves.
 
-Week 2:
+Week 3:
 1. Define all the constants we need in this project.
 2. Set up input format, containg latitude, velocity, and duration.
 3. Generate three windows to show our later detail works.
 
-Week 3:
+Week 4:
 1. Import the figure of Earth to be as our rotating system.
 2. Let the Earth rotate at constant speed and connects to the other two figure.
 3. Fire the ball and draw the trajectory 3-D on the main window and the others.
 4. Add some extra controls, such as changing fire angle and perspective.
 
-Week 4:
-
 Week 5:
+1. 
+2. 
+3. 
+
+Week 6:
+1. 
+2. 
+3. 
+
+Week 7:
+1. Check our progress whether it suits the reality.
+2. Beatify our video and refine our vpython code.
+
+Week 8:
+1. Double check our code and finish our PPT.
