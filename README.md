@@ -43,14 +43,14 @@ Week 3:
 
 Week 4:
 1. Import the figure of Earth to be as our rotating system.
-2. Let the Earth rotate at constant speed and connects to the other two figure.
-3. Fire the ball and draw the trajectory 3-D on the main window and the others.
-4. Add some extra controls, such as changing fire angle and perspective.
+2. Let the Earth rotates at constant speed and connects to the other two figures.
+3. Set a circular plane as the Great circle where the throwing ball only due to force of gravity.
 
 Week 5:
 1. 
 2. 
-3. 
+3. Fire the ball and draw the trajectory 3-D on the main window and the others.
+4. Add some extra controls, such as changing fire angle and perspective.
 
 Week 6:
 1. 
