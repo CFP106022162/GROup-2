@@ -9,7 +9,7 @@
 4. 黃景岳 106022225
 
 ## II. Goals
-Simulate the movement of a throwing ball on a rotating system. (eg. Earth)
+To simulate the movement of a throwing ball on a rotating system. (eg. Earth)
 
 ## III. Steps
 1. Depicting the ball and the rotating planet at initial condition.
