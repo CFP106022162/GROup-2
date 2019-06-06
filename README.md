@@ -27,7 +27,10 @@ To simulate the movement of a throwing ball on a rotating system. (eg. Earth)
 
 4. 鄭銘健 -> Debug and check thework of vpython code.
 
-## V. Work Log
+## V. Brief Introduction
+Coriolis force is an inertial force acting on objects that are in motion within a frame of reference which rotating with respect to an inertial frame. In a reference frame with clockwise rotation mode, the force acts to the left of the motion of the object; in one with counterclockwise rotation mode, the force acts to the right of the motion of the object.
+
+## VI. Work Log
 Week 1:
 1. Discuss and organize our final project topic and goal.
 
@@ -63,5 +66,5 @@ Week 7:
 Week 8:
 1. Double check our code and finish our github and PPT.
 
-## VI. Progress
-Coriolis force is an inertial force acting on objects that are in motion within a frame of reference which rotating with respect to an inertial frame. In a reference frame with clockwise rotation mode, the force acts to the left of the motion of the object; in one with counterclockwise rotation mode, the force acts to the right of the motion of the object.
+## VII. Progress
+
