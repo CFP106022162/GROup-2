@@ -62,3 +62,6 @@ Week 7:
 
 Week 8:
 1. Double check our code and finish our github and PPT.
+
+## VI. Progress
+Coriolis force is an inertial force acting on objects that are in motion within a frame of reference which rotating with respect to an inertial frame. In a reference frame with clockwise rotation mode, the force acts to the left of the motion of the object; in one with counterclockwise rotation mode, the force acts to the right of the motion of the object.
