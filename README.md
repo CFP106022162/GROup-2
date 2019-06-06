@@ -1,7 +1,6 @@
 # Group-02
 ## Coriolis Force simulation
 
-
 ## I. Members
 1. 楊添福 106022106
 2. 謝明儒 106022215
@@ -42,20 +41,20 @@ Week 2:
 Week 3:
 1. Define all the constants we need in this project.
 2. Set up input format, containg latitude, velocity, and duration.
-3. Generate three windows to show our later detail works.
+3. Generate two windows to show our later detail works.
 
 Week 4:
 1. Import the figure of Earth to be as our rotating system.
-2. Let the Earth rotates at constant speed and connects to the other two figures.
+2. Let the Earth rotates at constant speed and connects to the another window.
 3. Set the original frame of observer to be from the outer space.
 
 Week 5:
-1. Fire a ball and draw the trajectory 3-D on the main window and the others.
+1. Fire a ball and draw the trajectory 3-D on the main window and the other.
 2. Set up a control to save all the datas to check whether it's correct or not.
 3. Set a circular plane as the Great circle where the throwing ball only due to force of gravity.
 
 Week 6:
-1. Continue our work last week and connects the data simutaneously with other two windows.
+1. Continue our work last week and connects the data simutaneously with another window.
 2. Advance our code in order to fire the ball more than one time.
 3. Add some extra controls, such as changing fire angle and the frame of observer.
 
@@ -67,4 +66,4 @@ Week 8:
 1. Double check our code and finish our github and PPT.
 
 ## VII. Progress
-
+We first set the ball's information to be latitude: 30 degree, initial velocity: 25000 meter per second, and duration: 3 seconds. After few seconds, we'll get two windows, one with Earth and ball's information at the left side, and the other showing where the ball will land after firing. We click the main window, and see the Earth start to rotate at fixed velocity. We click again and observe that a firing ball due to not only gravity but Coriolis force fly northward initially. Ultimately, it lands at the right side of the firing direction, namely eatward. If we want to fire another ball with dirrerent information, such as direction and angle, we just need to press our keyboard and then click again. The results fit the theory and we successfully simulate the movement of a throwing ball on a rotating system.
