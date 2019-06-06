@@ -1,5 +1,5 @@
 # Group-02
-## Topic - Coriolis Force simulation
+## Coriolis Force simulation
 
 
 ## I. Members
