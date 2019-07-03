@@ -204,6 +204,7 @@ def mouse_method(evt):
 #在旋轉坐標裏的球，初始條件
         formula_balls.append(sphere(frame = earth, pos = player.pos, radius = 40, make_trail = False, color = color.blue, material = materials.rough, opacity = 0.5,
                                     v = balls_v * norm(fireaxis.axis), a = vector(0, 0, 0)))
+				    
 #解科氏力
         formula_balls[-1].a = gravity(formula_balls[-1].pos) - 2 * cross(w, formula_balls[-1].v) -              
                                           cross(w, cross(w, formula_balls[-1].pos))
@@ -257,9 +258,10 @@ def key_method(evt):
         fireaxis.axis = rotate(rotate(rotate(vector(1, 0, 0), angle = radians(fire_angle), axis = vector(0, -1, 0)), angle = radians(fire_dir), axis = vector(0, 0, 1)), angle = radians(latitude), axis = vector(-1, 0, 0)) * 300
         if not fire_angle == 90:
             update_frame.axis = track.axis = norm(cross(player.axis, fireaxis.axis))
-    #主圖說明欄調整
-    info_demo.text = ("  Rotation Speed(< >):\n    %sx\n  Latitude:\n    %s\n  Fire Angle(w s):\n    %s  deg\n  Fire Direction(A d):\n    %s  deg\n  Earth Radius:\n    %s  km"
-                        % (rota_demo , str_latitude, str(fire_angle), str(fire_dir), Er))
+#主圖說明欄調整
+info_demo.text = ("  Rotation Speed(< >):\n    %sx\n  Latitude:\n    %s\n  Fire Angle(w s):\n    %s  deg\n  Fire Direction(A d):\n    %s  deg\n  Earth Radius:\n    %s  km"
+                 % (rota_demo , str_latitude, str(fire_angle), str(fire_dir), Er))
+
 # o模式 視角由發射點開始
 mode = "outside"
 t = 0
@@ -339,6 +341,7 @@ while True:
             arrows[balls.index(b)].pos = ballpos
             arrows[balls.index(b)].axis = (vector(count_a(dt, trails[balls.index(b)].pos[-3:]))
                                             - gravity(vector(trails[balls.index(b)].pos[-2]))) * 0.03
+
 #科氏力
 for fb in formula_balls:
     fb.a = gravity(fb.pos) - 2 * cross(w, fb.v) - cross(w, cross(w, fb.pos))
