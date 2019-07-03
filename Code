@@ -98,14 +98,14 @@ pos = [(-0.25, 0), (balls_duration, 0), (0, 0.005)], color = color.white, size =
 g_trail = display(x = 900, y = 350, width = 350, height = 350, center = vector(0, 0, 0), background = color.black, title = "經度緯度關係圖", userspin = False,
                     lights = [distant_light(direction = vector(0, 0, 1)), distant_light(direction = vector(0, 0, -1))])
 
-    #K   g_dev
+#K   g_dev
 def project(lat, lon, z):
     return vector(Er*lon, Er*lat, z)
 
 curve(display = g_trail, pos = [project(-pi/2, -pi, 0), project(pi/2, -pi, 0), project(pi/2, pi, 0),
                             project(-pi/2, pi, 0), project(-pi/2, -pi, 0)], color = color.gray(0.8), size = 3)
 
-    #in range (切割圖3)
+#in range (切割圖3)
 for lat in range(-90, 91, 30):
     curve(display = g_trail, pos = [project(radians(lat), -pi, 0), project(radians(lat), pi, 0)], color = color.gray(0.5), size = 3)
     label(display = g_trail, text = str(lat), pos = project(radians(lat), -pi*0.9, 0), box = False, line = False, opacity = 0)
@@ -116,11 +116,11 @@ for lon in range(-180, 181, 30):
 label(display = g_trail, text = "latitude", pos = project(pi/2, -pi, 0) + vector(3500, 3000, 0), box = False, line = False, opacity = 0)                        
 [label(display = g_trail, text = str(lat), pos = project(radians(lat), -pi*0.9, 0), box = False, line = False, opacity = 0) for lat in range(-90, 91, 30)]
 
-    #NC環畫在圖3 #retain: trai中欲保留的點數
+#NC環畫在圖3 #retain: trai中欲保留的點數
 updater = sphere(display = g_trail, radius = 1, color = color.white, make_trail = True, retain = 1050, trail_type = "points")                                   
 updater.trail_object.size = 1
 
-# 畫主圖(圖1) #V python light 語法 調整照光方向及遠近 #https://www.glowscript.org/docs/VPythonDocs/lights.html
+#畫主圖(圖1) #V python light 語法 調整照光方向及遠近 #https://www.glowscript.org/docs/VPythonDocs/lights.html
 
 scene = display(width = 900, height = 700, center = vector(0, 0, 0), background = color.black, title = "Throw Ball on Earth",
                 lights = [distant_light(direction = vector(0, 1, 0), color = color.gray(0.7)),
@@ -130,7 +130,7 @@ scene = display(width = 900, height = 700, center = vector(0, 0, 0), background 
                           distant_light(direction = vector(0, 0, 1), color = color.gray(0.7)),
                           distant_light(direction = vector(0, 0, -1), color = color.gray(0.7))])
 
- #畫底部參考網格
+#畫底部參考網格
 [curve(pos = [vector(4000, -Er*1.2, z*400), vector(-4000, -Er*1.2, z*400)], color = color.gray(0.5)) for z in range(-10, 11)]
 [curve(pos = [vector(x*400, -Er*1.2, 4000), vector(x*400, -Er*1.2, -4000)], color = color.gray(0.5)) for x in range(-10, 11)]
 
@@ -156,10 +156,6 @@ player = pyramid(frame = earth, pos = vector(0, Er * sin(radians(latitude)), Er 
 
 player.axis = norm(player.pos)
 fireaxis = arrow(frame = earth, pos = player.pos, length = 300, color = color.green, material = materials.rough)
-
-
-
-
 
 #rotate(angle(),axis=vec(),origin=vec()) https://www.glowscript.org/docs/VPythonDocs/rotation.html
 
@@ -343,18 +339,18 @@ while True:
             arrows[balls.index(b)].pos = ballpos
             arrows[balls.index(b)].axis = (vector(count_a(dt, trails[balls.index(b)].pos[-3:]))
                                             - gravity(vector(trails[balls.index(b)].pos[-2]))) * 0.03
-    #科氏力
-    for fb in formula_balls:
-        fb.a = gravity(fb.pos) - 2 * cross(w, fb.v) - cross(w, cross(w, fb.pos))
-        formula_arrows[formula_balls.index(fb)].pos = fb.pos
-        formula_arrows[formula_balls.index(fb)].axis = (fb.a - gravity(fb.pos)) * 0.03
+#科氏力
+for fb in formula_balls:
+    fb.a = gravity(fb.pos) - 2 * cross(w, fb.v) - cross(w, cross(w, fb.pos))
+    formula_arrows[formula_balls.index(fb)].pos = fb.pos
+    formula_arrows[formula_balls.index(fb)].axis = (fb.a - gravity(fb.pos)) * 0.03
     
     earth.rotate(angle = mag(w) * dt, axis = norm(w))
     update(dt, scene)
     
-    #視角隨地球移動
-    if mode == "inside":
-        scene.forward = -earth.frame_to_world(player.pos)
-    elif mode == "ball" and len(balls):
-        scene.center = timer.pos = info_demo.pos = balls[-1].pos
-        scene.forward = -balls[-1].pos
+#視角隨地球移動
+if mode == "inside":
+    scene.forward = -earth.frame_to_world(player.pos)
+elif mode == "ball" and len(balls):
+    scene.center = timer.pos = info_demo.pos = balls[-1].pos
+    scene.forward = -balls[-1].pos
