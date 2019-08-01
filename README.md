@@ -72,7 +72,7 @@ We first type the ball's information to be latitude: 30 degree, initial velocity
 https://onedrive.live.com/edit.aspx?cid=f519f694535a8eae&page=view&resid=F519F694535A8EAE!109708&parId=F519F694535A8EAE!103&app=PowerPoint
 
 ## IX. Coding
-The whole coding is in below:
-https://docs.google.com/document/d/15DKHIShpjO1bCL_Bxtbdo0cloy_CmjVOFSsGbObxY4M/edit?fbclid=IwAR3h6AwNaqk8psE6l9WQL7x7no1TpTmX0ZsGgTP7jI5izmfDrwNB07g3SbU
+The whole coding is below:
+https://github.com/CFP106022162/GROup-2/blob/master/Code
 
 We used Vpython to run the code, make sure install Vpython and Python 2.7 before run the code
