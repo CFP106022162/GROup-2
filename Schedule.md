@@ -69,9 +69,9 @@ Week 8:
 We first type the ball's information to be latitude: 30 degree, initial velocity: 25000 meter per second, and duration: 3 seconds. After few seconds, we'll get two windows, one with Earth and ball's information at the left side, and the other showing where the ball will land after firing. We click the main window, and see the Earth start to rotate at fixed velocity. We click again and observe that a firing ball due to not only gravity but Coriolis force fly northward initially. Ultimately, it lands at the right side of the firing direction, namely eatward. If we want to fire another ball with dirrerent information, such as direction and angle, we just need to press our keyboard and then click again. The results fit the theory and we successfully simulate the movement of a throwing ball on a rotating system.
 
 ## VIII. Final Presentation PPT
-https://onedrive.live.com/edit.aspx?cid=f519f694535a8eae&page=view&resid=F519F694535A8EAE!109708&parId=F519F694535A8EAE!103&app=PowerPoint
+https://drive.google.com/file/d/1H4ZUtXDe3_1dPuYvABGQTm5oQ4ZK1GyT/view?usp=sharing
 
-## IX. Coding
+## IX. Code
 The whole coding is below:
 https://github.com/CFP106022162/GROup-2/blob/master/Code
 
