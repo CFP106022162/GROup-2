@@ -1,5 +1,8 @@
-# Group-02
-## Coriolis Force simulation
+＃組-
+code 來源
+https://github.com/FrSh28/Coriolis_Force_Simulation?fbclid=IwAR11gOMmhotTjaHKvlZ_s2moSd7iu0P4aU0Lvhw0DS_Zbvp4JihtPjr0JUY
+
+##科里奧利力模
 
 ## I. Members
 1. 楊添福 106022106
