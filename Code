@@ -3,7 +3,9 @@ from visual.graph import*
 from random import*
 import csv, os
 
-#修改項目
+＃代碼來源https://github.com/FrSh28/Coriolis_Force_Simulation?fbclid=IwAR11gOMmhotTjaHKvlZ_s2moSd7iu0P4aU0Lvhw0DS_Zbvp4JihtPjr0JUY 
+＃
+＃修改項目
 #自訂參數 
 
 #A func
